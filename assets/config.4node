@@ -1,0 +1,113 @@
+{
+  "debugLevel": "Debug",
+  "server": {
+    "id": "",
+    "name": "",
+    "type": ""
+  },
+  "servers": {
+    "servers": [{
+        "id": "TLDB1",
+        "name": "Test primary server - TLDB1",
+        "type": "Main"
+      },
+      {
+        "id": "TLDB2",
+        "name": "Test secondary server - TLDB2",
+        "type": "Auxiliary"
+      },
+      {
+        "id": "NFT",
+        "name": "NFT primary server - NFT",
+        "type": "Main"
+      },
+      {
+        "id": "ALDB1",
+        "name": "Staging primary server - ALDB1",
+        "type": "Main"
+      },
+      {
+        "id": "ALDB2",
+        "name": "Staging secondary server - ALDB2",
+        "type": "Auxiliary"
+      },
+      {
+        "id": "PLDB1",
+        "name": "Production primary server - PLDB1",
+        "type": "Main"
+      },
+      {
+        "id": "PLDB2",
+        "name": "Production secondary server - PLDB2",
+        "type": "Auxiliary"
+      }
+    ]
+  },
+  "pages": {
+    "pages": [{
+        "name": "Vitality",
+        "route": "/Vitality",
+        "groups": ["Production", "Product", "Kav2", "QA", "Test"],
+        "servertype": ["Main","Auxiliary"]
+      },
+
+      {
+        "name": "Services",
+        "route": "/Services",
+        "groups": ["Production", "Product", "Kav2", "QA", "Test"],
+        "servertype": ["Main"]
+      },
+
+      {
+        "name": "Otp",
+        "route": "/Otp",
+        "groups": ["Production", "Product", "Kav2", "QA", "Test"],
+        "servertype": ["Main"]
+      },
+
+      {
+        "name": "Templates",
+        "route": "/Templates",
+        "groups": ["Production", "Product", "Kav2", "QA", "Test"],
+        "servertype": ["Main"]
+      },
+
+      {
+        "name": "Template",
+        "route": "/Template",
+        "groups": ["Production", "Product", "Kav2", "QA", "Test"],
+        "servertype": ["Main"]
+      },
+
+      {
+        "name": "Trace",
+        "route": "/Trace",
+        "groups": ["Production", "Product", "Kav2", "QA", "Test"],
+        "servertype": ["Main"]
+      },
+
+      {
+        "name": "PageNotFound",
+        "route": "/PageNotFound",
+        "groups": ["Production", "Product", "Kav2", "QA", "Test"],
+        "servertype": ["Main"]
+      },
+
+      {
+        "name": "Configcntrl",
+        "route": "/Configcntrl",
+        "groups": ["Production", "Product", "Kav2", "QA", "Test"],
+        "servertype": ["Main"]
+      }
+    ]
+  },
+  "menuItems": {
+    "menuItem": [{
+        "name": "Vitality"
+      },
+      {
+        "name": "Config Control"
+      }
+    ]
+  }
+}

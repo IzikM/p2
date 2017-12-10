@@ -1,4 +1,5 @@
 var fs = require("fs");
+var fileRoot = ".\\assets\\";
 
 function start(response) {
   console.log("Request handler 'start' was called.");
@@ -58,12 +59,12 @@ function show(response) {
 }
 
 function config(response) {
-  var fileName = "e:\\config.4node";
+  var fileName = fileRoot + "config.4node";
   getFile(response, fileName);
 }
 
 function auth(response) {
-  var fileName = "e:\\auth.4node";
+  var fileName = fileRoot + "auth.4node";
   getFile(response, fileName);
 }
 
