@@ -46,42 +46,42 @@
   "pages": {
     "pages": [{
         "name": "Vitality",
-        "route": "/Vitality",
+        "route": "/vitality",
         "groups": ["Production", "Product", "Kav2", "QA", "Test"],
         "servertype": ["Main","Auxiliary"]
       },
 
       {
         "name": "Services",
-        "route": "/Services",
-        "groups": ["Production", "Product", "Kav2", "QA", "Test"],
+        "route": "/services",
+        "groups": ["Admin", "Test"],
         "servertype": ["Main"]
       },
 
       {
         "name": "Otp",
-        "route": "/Otp",
+        "route": "/otp",
         "groups": ["Production", "Product", "Kav2", "QA", "Test"],
         "servertype": ["Main"]
       },
 
       {
         "name": "Templates",
-        "route": "/Templates",
+        "route": "/templates",
         "groups": ["Production", "Product", "Kav2", "QA", "Test"],
         "servertype": ["Main"]
       },
 
       {
         "name": "Template",
-        "route": "/Template",
+        "route": "/template",
         "groups": ["Production", "Product", "Kav2", "QA", "Test"],
         "servertype": ["Main"]
       },
 
       {
         "name": "Trace",
-        "route": "/Trace",
+        "route": "/trace",
         "groups": ["Production", "Product", "Kav2", "QA", "Test"],
         "servertype": ["Main"]
       },
@@ -94,7 +94,7 @@
       },
 
       {
-        "name": "Configcntrl",
+        "name": "ConfigCntrl",
         "route": "/Configcntrl",
         "groups": ["Production", "Product", "Kav2", "QA", "Test"],
         "servertype": ["Main"]
